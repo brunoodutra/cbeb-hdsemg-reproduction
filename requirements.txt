@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+scipy
+h5py
+scikit-learn
+tqdm
+wfdb
+tensorflow>=2.10,<2.15

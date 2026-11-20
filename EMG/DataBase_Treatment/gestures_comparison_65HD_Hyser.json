@@ -1,0 +1,112 @@
+{
+  "gesture_mapping": [
+    {
+      "id": 0,
+      "movement_concept": "Rest",
+      "hyser_id": "0",
+      "hyser_label": "rest",
+      "hdemg_id": "0",
+      "hdemg_label": "Rest",
+      "match_type": "Exact Direct"
+    },
+    {
+      "id": 1,
+      "movement_concept": "Thumb extension / Up",
+      "hyser_id": "1",
+      "hyser_label": "thumb extension",
+      "hdemg_id": "10",
+      "hdemg_label": "Thumb: up",
+      "match_type": "Functional / Anatomical"
+    },
+    {
+      "id": 2,
+      "movement_concept": "Index finger extension",
+      "hyser_id": "2",
+      "hyser_label": "index finger extension",
+      "hdemg_id": "8",
+      "hdemg_label": "Index finger: stretch",
+      "match_type": "Exact Direct"
+    },
+    {
+      "id": 3,
+      "movement_concept": "Middle finger extension",
+      "hyser_id": "3",
+      "hyser_label": "middle finger extension",
+      "hdemg_id": "6",
+      "hdemg_label": "Middle finger: stretch",
+      "match_type": "Exact Direct"
+    },
+    {
+      "id": 4,
+      "movement_concept": "Ring finger extension",
+      "hyser_id": "4",
+      "hyser_label": "ring finger extension",
+      "hdemg_id": "4",
+      "hdemg_label": "Ring finger: stretch",
+      "match_type": "Exact Direct"
+    },
+    {
+      "id": 5,
+      "movement_concept": "Little finger extension",
+      "hyser_id": "5",
+      "hyser_label": "little finger extension",
+      "hdemg_id": "2",
+      "hdemg_label": "Little finger: stretch",
+      "match_type": "Exact Direct"
+    },
+    {
+      "id": 6,
+      "movement_concept": "Wrist flexion",
+      "hyser_id": "6",
+      "hyser_label": "wrist flexion",
+      "hdemg_id": "13",
+      "hdemg_label": "Wrist: bend",
+      "match_type": "Exact Direct"
+    },
+    {
+      "id": 7,
+      "movement_concept": "Wrist extension",
+      "hyser_id": "7",
+      "hyser_label": "wrist extension",
+      "hdemg_id": "14",
+      "hdemg_label": "Wrist: stretch",
+      "match_type": "Exact Direct"
+    },
+    {
+      "id": 8,
+      "movement_concept": "Wrist pronation / Anti-clockwise rotation",
+      "hyser_id": "10",
+      "hyser_label": "wrist pronation",
+      "hdemg_id": "15",
+      "hdemg_label": "Wrist: rotate anti-clockwise",
+      "match_type": "Kinematic Equivalent (Right hand)"
+    },
+    {
+      "id": 9,
+      "movement_concept": "Wrist supination / Clockwise rotation",
+      "hyser_id": "11",
+      "hyser_label": "wrist supination",
+      "hdemg_id": "16",
+      "hdemg_label": "Wrist: rotate clockwise",
+      "match_type": "Kinematic Equivalent (Right hand)"
+    },
+    {
+      "id": 10,
+      "movement_concept": "Hand close / Palmar grasp",
+      "hyser_id": "30",
+      "hyser_label": "hand close",
+      "hdemg_id": "61",
+      "hdemg_label": "Palmar grasp",
+      "match_type": "Functional / Synergistic"
+    },
+    {
+      "id": 11,
+      "movement_concept": "Hand open",
+      "hyser_id": "31",
+      "hyser_label": "hand open",
+      "hdemg_id": "58",
+      "hdemg_label": "Extend all fingers (without thumb)",
+      "match_type": "Functional / Anatomical"
+    }
+  ]
+}

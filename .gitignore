@@ -1,25 +1,24 @@
-# Python
 __pycache__/
 *.py[cod]
-*.egg-info/
-.venv/
-venv/
-env/
-
-# Data and models
-*.h5
-*.hdf5
-*.h5py
-*.mat
-*.npy
-*.npz
-*.pkl
-*.csv
-*.xlsx
-*.zip
-
-# IDE / OS
-.vscode/
-.idea/
+.ipynb_checkpoints/
 .DS_Store
-Thumbs.db
+cbeb-hdsemg-reproduction.zip
+.venv/
+
+# Raw EMG and processed HDF5 (download + run preprocess locally)
+data/*
+!data/README.md
+EMG/**/data/
+EMG/DataBase_Treatment/65HD_EMG/bk/
+EMG/DataBase_Treatment/HYSER/ndof_dataset/
+
+# Trained weights / optimizer slots (retrain with the notebooks)
+EMG/Experiments/Deep_learning/Train/trainings/*/
+EMG/Experiments/Deep_learning/Train/trainings/logs/
+EMG/Experiments/Deep_learning/Train/trainings/*.tflite
+*.h5
+
+# Local leftovers (not part of the shareable package)
+*-Copy1.ipynb
+EMG/Experiments/Analysis_paper/
+EMG/DataBase_Treatment/HYSER/pr_dataset/HYSERDataLoader_v0.py
