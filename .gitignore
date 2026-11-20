@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Data and models
+*.h5
+*.hdf5
+*.h5py
+*.mat
+*.npy
+*.npz
+*.pkl
+*.csv
+*.xlsx
+*.zip
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
